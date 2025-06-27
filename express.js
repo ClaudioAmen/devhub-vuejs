@@ -14,7 +14,7 @@ app.listen(port, () => {
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
-  "mongodb+srv://claudioamendola:IbTWowI6oecOMjNu@dbdevhub.axgloif.mongodb.net/?retryWrites=true&w=majority&appName=dbdevhub";
+  "mongodb+srv://claudioamendola:mt4p3bxT066cl5N0@clustercorso.836vmvs.mongodb.net/";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
@@ -39,4 +39,4 @@ async function run() {
 }
 run().catch(console.dir);
 
-// Questo è un pre compilato di MongoDb server per fare il collegamento alle chiamate API del database
+// Questo è un pre compilato di MongoDb serve per fare il collegamento alle chiamate API del database
